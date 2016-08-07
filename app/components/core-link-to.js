@@ -1,0 +1,1 @@
+export { default } from 'ember-cli-user-components/components/core-link-to';

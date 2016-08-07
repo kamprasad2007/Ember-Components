@@ -1,0 +1,14 @@
+<div class="input-radio">
+{{#if isChecked}}
+	<input type="radio" checked>
+{{else}}
+	<input type="radio" >
+{{/if}}
+	
+	<div class="input-radio__icon icon-ripple" {{action "checked"}}>
+		<div class="global-ripple global-ripple_icon">
+		</div>
+	</div>
+	<label {{action "click"}}>{{yield}}</label>
+</div>
+
